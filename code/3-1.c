@@ -5,8 +5,9 @@ void print_array(int arr[][3]) {
         for (int j=0; j<3; j++) {
             printf("%d ", arr[i][j]);
         }
-        printf("\n");
     }
+            printf("\n");
+
 }
 
 int main() {
