@@ -10,7 +10,7 @@ int main() {
     printf("sizeof(pointer_array) = %zu\n", sizeof(pointer_array));
     printf("\n");
     for (int i= 0; i <4; i++) {
-        printf("%p\n", (void*)array_pointer+i);
+        printf("%p\n", (void*)(array_pointer+i));
     }
     printf("\n");
     for (int i = 0; i < 4; i++) {
